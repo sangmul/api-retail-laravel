@@ -4,6 +4,7 @@ REST API ini dibuat dalam rangga Contoh Back End yang digunakan pada Workshop Pe
 
 ##Cara Menjalankan : 
 
+* Install composer
 * Jalankan XAMPP/MAMP
 * Jalankan database MySQL dan buat sebuah database dengan nama `dbretail`
 * Silahkan rubah konfigurasi database pada file .env
