@@ -57,7 +57,7 @@ Response :
               "email": "string",
               "created_at": "datetime",
               "updated_at": "datetime",
-              "id": integer
+              "id": "integer"
         },
         {
               "nama": "string",
@@ -67,7 +67,7 @@ Response :
               "email": "string",
               "created_at": "datetime",
               "updated_at": "datetime",
-              "id": integer
+              "id": "integer"
         }
     ]
 }
@@ -86,9 +86,9 @@ Request :
 ```json 
 {
     "nama": "string",
-    "alamat": "string",,
-    "no_npwp": "string",,
-    "phone": "string",,
+    "alamat": "string",
+    "no_npwp": "string",
+    "phone": "string",
     "email": "string",
 }
 ```
@@ -107,7 +107,7 @@ Response :
         "email": "string",
         "created_at": "datetime",
         "updated_at": "datetime",
-        "id": integer
+        "id": "integer"
     }
 }
 ```
@@ -151,7 +151,7 @@ Response :
         "email": "string",
         "created_at": "datetime",
         "updated_at": "datetime",
-        "id": integer
+        "id": "integer"
     }
 }
 ```
