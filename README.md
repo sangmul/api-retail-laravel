@@ -13,13 +13,60 @@ https://getcomposer.org/download/
 * Silahkan rubah konfigurasi database pada file .env
 
 ##Spesifikasi Koneksi Database:
+*tambahkan file .env pada folder project dan isi code berikut didalamnya:
 ```.env
+APP_NAME=Laravel
+APP_ENV=local
+APP_KEY=base64:OglYUsm0cb34AHry54k79/CGc3FWNlpGU3HvEFugJE4=
+APP_DEBUG=true
+APP_URL=http://RetailBE.test
+
+LOG_CHANNEL=stack
+LOG_LEVEL=debug
+
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1(disetting sesuai settingan komputer/server masing-masing)
 DB_PORT=8889(disetting sesuai settingan komputer/server masing-masing)
 DB_DATABASE=dbretail
 DB_USERNAME=root(disetting sesuai settingan komputer/server masing-masing)
 DB_PASSWORD=root(disetting sesuai settingan komputer/server masing-masing)
+
+BROADCAST_DRIVER=log
+CACHE_DRIVER=file
+QUEUE_CONNECTION=sync
+SESSION_DRIVER=file
+SESSION_LIFETIME=120
+
+REDIS_HOST=127.0.0.1
+REDIS_PASSWORD=null
+REDIS_PORT=6379
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS=null
+MAIL_FROM_NAME="${APP_NAME}"
+
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_DEFAULT_REGION=us-east-1
+AWS_BUCKET=
+
+PUSHER_APP_ID=
+PUSHER_APP_KEY=
+PUSHER_APP_SECRET=
+PUSHER_APP_CLUSTER=mt1
+
+MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
+MIX_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
+
+L5_SWAGGER_GENERATE_ALWAYS=true
+SWAGGER_VERSION=3.1
+
+L5_SWAGGER_CONST_HOST=http://127.0.0.1:8000
 ```
 
 Menjalakan Back End yang telah didownload/pull dengan terminal :
